@@ -1,0 +1,33 @@
+.html {
+    background-color: antiquewhite;
+}
+
+.navigator-bar {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+.navigator-bar-element {
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    transform: 0,5s;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+/*Stili per prova 3 - Colori*/
+
+.colored-container {
+    background-color: rgba(255, 8, 8, 0.733) !important;
+}
+
+.colored-text {
+    margin-left: 20px;
+    color: darkgreen;
+}
