@@ -6,6 +6,7 @@ body { /*Ho messo body perché rende meglio l'idea*/
 .container {
     display: flex;
     justify-content: right;
+    background-color: #ffffff66;
 }
 
 .test-text {
@@ -19,7 +20,7 @@ body { /*Ho messo body perché rende meglio l'idea*/
 .text  {
     margin-top: 30px;
     margin-left: 30px;
-    transition: 1s;
+    transition: all 1s;
 }
 
 footer {
@@ -33,7 +34,7 @@ footer {
 #Linking {
     text-transform: uppercase;
     text-decoration: none;
-    color: lightgrey;
+    color: #333333;
     
 }
 
@@ -42,4 +43,9 @@ footer {
     background-color: white;
     
     transition: all 0.4s;
+}
+
+.container:hover {
+    background-color: #ffffffaa;
+    transition: 0.3s;
 }
