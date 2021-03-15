@@ -1,4 +1,4 @@
-html {
+body { /*Ho messo body perché rende meglio l'idea*/
     color: white;
     background-color: black;
 }
@@ -13,7 +13,7 @@ html {
     justify-content: space-evenly;
     margin-top: 30px;
     margin-left: 30px;
-    transition: 1s
+    transition: all 1s
 }
 
 .text  {
@@ -24,4 +24,22 @@ html {
 
 footer {
     margin-left: 30px;
+}
+
+#Caps {
+    text-transform: uppercase;
+}
+
+#Linking {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: lightgrey;
+    
+}
+
+#Linking:hover {
+    color: black;
+    background-color: white;
+    
+    transition: all 0.4s;
 }
